@@ -3,17 +3,23 @@ this is an handwriting recognition projects for digits and english letters
 
 
 this is the number of x-train and y-tarin 
-# the data, split between train and test sets
+ the data, split between train and test sets
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 print(x_train.shape, y_train.shape)
 
 
 then reshaped and categorized 
+
 x_train shape: (60000, 28, 28, 1)
+
 60000 train samples
+
 10000 test samples
+
 y_train shape: (60000, 10)
+
 60000 train samples
+
 10000 test samples
 
 
